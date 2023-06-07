@@ -1,0 +1,113 @@
+ /* #btn {
+   display: inline-block;
+   position: absolute;
+   left: 110px;
+   top: 100px;
+   border: 4px solid red;
+   box-shadow: 2px 1px red;
+   text-decoration: none;
+   font-size: 40px;
+   width: 120px;
+   text-align: center;
+   font-family: Rubik Puddles;
+   color: rgb(30, 255, 0);
+   background-image: linear-gradient(to top, #002fff, #ff009d);
+   font-weight: bold;
+
+
+ } */
+
+ body{
+  background-image: url(bg.jpg);
+  padding: 0px;
+  margin: 0px;
+  background-size: 400px;
+  background-position-x: -20px;
+}
+
+#gradient
+{
+ width: 100%;
+ height: 800px;
+ padding: 0px;
+ margin: 0px;
+}
+.btn {
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: .7em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   font-family: Days One;
+}
+.btn2{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: .7em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 90px;
+   position: absolute;
+   left: 90px;
+   top: 200px;
+   font-family: Days One;
+}
+
+
+.btn--gradient {
+  animation: gradient 3s ease infinite;
+  background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 1000% 400%;
+}
+
+.btn--shimmer {
+  animation: shimmer 3s linear infinite;
+  background-image: linear-gradient(-70deg, 
+    rgba(255,255,255,0) 46%, 
+    rgba(255,255,255,.8) 50%, 
+    rgba(255,255,255,.8) 52%, 
+    rgba(255,255,255,0) 56%
+    
+  );
+	background-size: 400% 100%;
+}
+
+@keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+@keyframes shimmer{
+	0% {
+		background-position: 100% 50%;
+	}
+	30% {
+		background-position: 0% 50%;
+	}
+}
