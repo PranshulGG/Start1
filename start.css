@@ -22,8 +22,7 @@
   background-image: url(bg.jpg);
   padding: 0px;
   margin: 0px;
-  background-size: 450px;
-  background-position-x: -30px;
+  background-size: cover;
 }
 
 #gradient
@@ -270,6 +269,7 @@
     height: 10px;
     animation: rotate 3s infinite linear;
     -webkit-animation: rotate 3s infinite linear;
+    
   }
   
 }
