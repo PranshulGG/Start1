@@ -161,6 +161,26 @@
    font-family: Days One;
 }
 
+.btn7{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: .7em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 200px;
+   position: absolute;
+   left: 80px;
+   top: 640px;
+   font-family: Days One;
+}
+
 .btn--gradient {
   animation: gradient 3s ease infinite;
   background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
