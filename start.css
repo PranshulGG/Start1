@@ -69,7 +69,7 @@
   display: inline-block;
   font-size: 1.3em;
   font-weight: bold;
-  padding: .7em 2em;
+  padding: .6em 2em;
   text-align: center;
   
   text-decoration: none;
@@ -89,7 +89,7 @@
   display: inline-block;
   font-size: 1.3em;
   font-weight: bold;
-  padding: .7em 2em;
+  padding: .5em 2em;
   text-align: center;
   
   text-decoration: none;
@@ -97,7 +97,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 260px;
+   top: 250px;
    font-family: Days One;
 }
 
@@ -109,7 +109,7 @@
   display: inline-block;
   font-size: 1.3em;
   font-weight: bold;
-  padding: .7em 2em;
+  padding: .5em 2em;
   text-align: center;
   
   text-decoration: none;
@@ -117,7 +117,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 360px;
+   top: 340px;
    font-family: Days One;
 }
 
@@ -137,7 +137,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 460px;
+   top: 430px;
    font-family: Days One;
 }
 
@@ -157,7 +157,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 530px;
+   top: 500px;
    font-family: Days One;
 }
 
@@ -177,7 +177,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 600px;
+   top: 570px;
    font-family: Days One;
 }
 .btn8{
@@ -188,7 +188,7 @@
   display: inline-block;
   font-size: 1.1em;
   font-weight: bold;
-  padding: .7em 2em;
+  padding: .1em 2em;
   text-align: center;
   
   text-decoration: none;
@@ -196,7 +196,7 @@
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 670px;
+   top: 640px;
    font-family: Days One;
 }
 
