@@ -20,13 +20,14 @@
 
  html,body{
   width: 100%;
-  height: 100%;
+  height: 800px;
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  overflow: auto;
   background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   
 
  }
@@ -197,6 +198,37 @@
    position: absolute;
    left: 80px;
    top: 640px;
+   font-family: Days One;
+}
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Set the desired background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Set a high z-index to ensure it appears on top of other elements */
+}
+.btn9{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 200px;
+   position: absolute;
+   left: 80px;
+   top: 700px;
    font-family: Days One;
 }
 
