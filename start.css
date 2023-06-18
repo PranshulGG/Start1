@@ -335,6 +335,22 @@ box-shadow: 1px 1px 3px red;
   padding: 5px;
   border-radius: 30px;
 }
+.rep{
+  color: rgb(94, 255, 0);
+  position: absolute;
+  transform: rotate(90deg);
+  top: 140px;
+  border: 2px solid rgb(234, 0, 255);
+  background-color: rgb(255, 0, 0);
+  text-decoration: none;
+  left: -30px;
+  font-weight: bold;
+
+  box-shadow: 3px 3px 6px rgb(30, 255, 0);
+  padding: 5px;
+ border-top-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+}
 
 .btn--gradient {
   animation: gradient 3s ease infinite;
