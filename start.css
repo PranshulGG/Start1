@@ -320,6 +320,21 @@ box-shadow: 1px 1px 3px red;
   padding: 5px;
   border-radius: 30px;
 }
+.kal{
+  color: red;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 600px;
+  border: 2px solid rgb(21, 255, 0);
+  background-color: rgb(0, 255, 0);
+  text-decoration: none;
+  left: -43px;
+  font-weight: bold;
+
+box-shadow: 1px 1px 3px red;
+  padding: 5px;
+  border-radius: 30px;
+}
 
 .btn--gradient {
   animation: gradient 3s ease infinite;
