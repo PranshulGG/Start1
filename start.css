@@ -60,6 +60,21 @@
 	 margin: auto;
 	 animation: circle 2.5s ease-in-out infinite alternate;
 }
+h3{
+ color: rgb(43, 255, 0);
+ position: absolute;
+ top: 510px;
+ left: 35px;
+ border: 2px solid green;
+ border-radius: 100%;
+ background-color: rgb(255, 0, 255);
+ padding: 3px;
+ transform: rotate(90deg);
+ font-weight: bold;
+ padding-left: 8px;
+ text-align: center;
+ padding-right: 8px;
+}
  .text {
 	 margin-left: 16px;
    color: white;
