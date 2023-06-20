@@ -24,7 +24,7 @@
 
  html,body{
   width: 100%;
-  height: 960px;
+  height: 1060px;
   margin: 0px;
   padding: 0px;
   overflow: auto;
@@ -40,6 +40,78 @@
  .wrapper {
 	 display: flex;
 	 align-items: center;
+}
+.imgm{
+  width: 25px;
+  position: absolute;
+  left: 10px;
+}
+.stackimg{
+  width: 60px;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+.memoryimg{
+  width: 32px;
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+.ticimg{
+  width: 35px;
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+.cutbox{
+  width: 80px;
+  position: absolute;
+  bottom: -6px;
+  left: -20px;
+}
+.cube1{
+  width: 35px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+
+}
+.snakel{
+  width: 63px;
+  position: absolute;
+  left: -6px;
+  bottom: 5px;
+}
+.hang{
+  width: 40px;
+  position: absolute;
+  right: 155px;
+  top: 15px;
+}
+.simon{
+  width: 30px;
+  position: absolute;
+  right: 167px;
+  top: 26px;
+}
+.pak{
+  width: 40px;
+  position: absolute;
+  right: 154px;
+  top: 17px;
+}
+.race{
+  width: 45px;
+  position: absolute;
+  right: 145px;
+
+}
+.zom{
+  width: 35px;
+  position: absolute;
+  right: 152px;
+  top: 15px;
 }
  .box {
 	 width: 30px;
@@ -317,7 +389,7 @@ h3{
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 800px;
+   top: 880px;
    font-family: Days One;
 }
 .btn12{
@@ -336,7 +408,7 @@ h3{
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 880px;
+   top: 960px;
    font-family: Days One;
 }
 .rate{
