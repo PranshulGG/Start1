@@ -137,7 +137,7 @@
 .settings{
   position: absolute;
   right: -8px;
- bottom: 630px;
+ bottom: 500px;
  font-size: 15px;
  color: rgb(255, 255, 255);
  font-weight: bold;
@@ -149,12 +149,13 @@ text-align: center;
 padding: 10px;
 
 }
-/* .fa-spin{
-  color: red;
-  position: absolute;
-  right: 0px;
- bottom: 500px;
-} */
+ .fa-spin{
+  
+  
+ margin-left: 5px;
+ 
+ 
+} 
 h3{
  color: rgb(43, 255, 0);
  position: absolute;
