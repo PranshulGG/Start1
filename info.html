@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranshul</title>
+</head>
+<body>
+
+    <a  class="back" href="index.html"> ❌ <br>
+        Exit
+    
+        <style>
+      
+            
+            .back{
+                font-size: 15px;
+                text-decoration: none;
+                cursor: auto;
+                position: absolute;
+                text-align: center;
+                border: 1px solid;
+                background-color: rgb(14, 6, 46);
+                border-radius: 100px;
+                padding: 10px;
+                color: white;
+                font-weight: bold;
+                
+                
+                
+
+                
+            }
+            .stngs{
+                position: absolute;
+                margin-left: 70px;
+                border: 1px solid rgba(255, 0, 0, 0);
+              padding: 30px;
+
+               width: 300px;
+                color: white;
+                margin-top: -10px;
+                border-radius: 10px;
+                background-color: rgb(2, 11, 61);
+
+                
+            }
+
+           
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-top: 00px;
+  margin-left: 80px;
+}
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} 
+.kal {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-top: 00px;
+  margin-left: 128px;
+}
+
+
+.kal input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} 
+.meow {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-top: 00px;
+  margin-left: 149px;
+}
+
+
+.meow input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+} 
+
+
+.slider {
+  position: absolute;
+  cursor: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+body{
+    background-color: rgb(27, 8, 95);
+}
+.container {
+    width: 340px;
+    height: 500px;
+    margin-top: 110px;
+    background-color: #0a0633;
+      border: 1px solid;
+      border-radius: 20px;
+      position: absolute;
+    }
+        </style>
+
+    </a> 
+    <h1 class="stngs">Settings
+       
+    </h1>
+    
+
+ 
+      
+      <div class="container">
+      <h3>General 
+        <style>
+            h3{
+                color: rgb(0, 225, 255);
+                text-align: center;
+                border: 1px solid rgba(255, 0, 0, 0);
+                padding: 10px;
+                display: grid;
+                align-items: center;
+                width: 70px;
+                margin: 12px auto;
+                background-color: rgba(231, 231, 231, 0.219);
+                border-radius: 10px;
+              
+            }
+        </style>
+      </h3>
+      
+   <p>&#9673; High Animation Quality:
+    <style>
+        p{
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(128, 128, 128, 0);
+            padding: 10px;
+        }
+    </style> <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label>
+   </p>
+  <p>&#9673; Turn Off High res:<label class="kal">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label></p>
+  <p>&#9673; All Effects Off:<label class="meow">
+    <input type="checkbox">
+    <span class="slider round"></span>
+  </label></p>
+       <h4>More Settings Coming Soon.
+        <style>
+            h4{
+                color: #2196F3;
+                text-align: center;
+                /* margin-top: 80px; */
+                border: 1px solid rgba(255, 0, 0, 0);
+                padding: 10px;
+                width: 250px;
+                background-color: #9521f33f;
+                margin: 82px auto;
+                border-radius: 10px;
+            }
+        </style>
+       </h4>
+        </div>
+<div>
+     <h2 class="mbp">Made By Pranshul <style>
+        .mbp{
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(0, 255, 191, 0) ;
+            text-shadow: 3px 3px 3px rgb(255, 136, 0);
+            width: 200px;
+            padding: 10px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: rgba(255, 0, 0, 0.267);
+           left: 70px;
+          position: absolute;
+            top: 660px;  
+           text-align: center;
+          
+        } 
+    </style></h2>
+</div>
+
+
+</body>
+</html>
