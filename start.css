@@ -76,7 +76,7 @@
   left: 10px;
   bottom: 10px;
 
-} 
+}
 .snakel{
   width: 63px;
   position: absolute;
@@ -101,10 +101,11 @@
   right: 154px;
   top: 17px;
 }
-.race{
-  width: 45px;
+.road{
+  width: 35px;
   position: absolute;
-  right: 145px;
+  right: 155px;
+  top: 13px;
 
 }
 .zom{
@@ -132,6 +133,7 @@
 	 margin: auto;
 	 animation: circle 2.5s ease-in-out infinite alternate;
 }
+
 h3{
  color: rgb(43, 255, 0);
  position: absolute;
