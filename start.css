@@ -110,7 +110,7 @@
 }
 .zom{
   width: 35px;
-  position: absolute; 
+  position: absolute;
   right: 152px;
   top: 15px;
 }
@@ -134,6 +134,27 @@
 	 animation: circle 2.5s ease-in-out infinite alternate;
 }
 
+.settings{
+  position: absolute;
+  right: -8px;
+ bottom: 630px;
+ font-size: 15px;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+ background-color: #00d9ff3a;
+border-color: #00d9ff3a;
+transform: rotate(90deg);
+border-radius: 40px;
+text-align: center;
+padding: 10px;
+
+}
+/* .fa-spin{
+  color: red;
+  position: absolute;
+  right: 0px;
+ bottom: 500px;
+} */
 h3{
  color: rgb(43, 255, 0);
  position: absolute;
@@ -257,6 +278,7 @@ h3{
    top: 340px;
    font-family: Days One;
 }
+
 
 .btn5{
   background-color: #23D5AB;
