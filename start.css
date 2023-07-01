@@ -8,7 +8,7 @@
    text-decoration: none;
    font-size: 40px;
    width: 120px;
-   text-align: center; 
+   text-align: center;
    font-family: Rubik Puddles;
    color: rgb(30, 255, 0);
    background-image: linear-gradient(to top, #002fff, #ff009d);
@@ -24,7 +24,7 @@
 
  html,body{
   width: 100%;
-  height: 1060px;
+  height: 1099px;
   margin: 0px;
   padding: 0px;
   overflow: auto;
@@ -113,6 +113,13 @@
   position: absolute;
   right: 152px;
   top: 15px;
+}
+.chess{
+  width: 35px;
+  position: absolute;
+  right: 155px;
+  top: 10px;
+
 }
  .box {
 	 width: 30px;
@@ -434,6 +441,25 @@ h3{
    position: absolute;
    left: 80px;
    top: 960px;
+   font-family: Days One;
+}
+.btn13{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.6em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 200px;
+   position: absolute;
+   left: 80px;
+   top: 1035px;
    font-family: Days One;
 }
 .rate{
