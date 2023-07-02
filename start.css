@@ -24,7 +24,7 @@
 
  html,body{
   width: 100%;
-  height: 1099px;
+  height: 1170px;
   margin: 0px;
   padding: 0px;
   overflow: auto;
@@ -116,6 +116,13 @@
 }
 .chess{
   width: 35px;
+  position: absolute;
+  right: 155px;
+  top: 10px;
+
+}
+.react{
+  width: 39px;
   position: absolute;
   right: 155px;
   top: 10px;
@@ -460,6 +467,25 @@ h3{
    position: absolute;
    left: 80px;
    top: 1035px;
+   font-family: Days One;
+}
+.btn14{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.2em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 200px;
+   position: absolute;
+   left: 80px;
+   top: 1095px;
    font-family: Days One;
 }
 .rate{
