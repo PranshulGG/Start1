@@ -32,6 +32,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: scroll
   
 
  }
@@ -41,6 +42,29 @@
 	 display: flex;
 	 align-items: center;
 }
+#searchBar{
+position: absolute;
+margin-top: -45px;
+margin-left: 80px;
+border-radius: 10px;
+padding: 5px;
+background-color: #0a1897;
+border: 1px solid rgba(255, 0, 0, 0);
+color: white;
+  
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+.fa-search{
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  margin-top: -39px;
+  margin-left: 247px;
+  color: white;
+}
+
 .imgm{
   width: 25px;
   position: absolute;
@@ -235,7 +259,7 @@ h3{
   
    position: absolute;
    left: 100px;
-   top: 150px;
+   top: 165px;
    font-family: Days One;
 }
 .btn2{
@@ -254,7 +278,7 @@ h3{
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 220px;
+   top: 230px;
    font-family: Days One;
 }
 
@@ -274,7 +298,7 @@ h3{
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 310px;
+   top: 320px;
    font-family: Days One;
 }
 
@@ -294,7 +318,7 @@ h3{
   width: 200px;
    position: absolute;
    left: 80px;
-   top: 400px;
+   top: 405px;
    font-family: Days One;
 }
 
@@ -594,8 +618,11 @@ box-shadow: 1px 1px 3px red;
   border-radius: 20px;
   background-color: red;
   bottom: 20px;
+ 
+  
   
 }
+
 
 .jt__row {
   display: block;
@@ -824,7 +851,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ff90', end
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-top: 90px;
+  margin-top: 110px;
   margin-left: 90px;
   font-size: 20px;
 }
