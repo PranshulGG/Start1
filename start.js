@@ -7,7 +7,7 @@ document.querySelectorAll('.button').forEach(button => {
     button.addEventListener('mousemove', e => {
 
         let dy = (e.clientY - bounding.top - bounding.height / 2) / -1
-        let dx = (e.clientX - bounding.left - bounding.width / 2)  / 10
+        let dx = (e.clientX - bounding.left - bounding.width / 2)  / 10 
 
         dy = dy > 10 ? 10 : (dy < -10 ? -10 : dy);
         dx = dx > 4 ? 4 : (dx < -4 ? -4 : dx);
