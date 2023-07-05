@@ -5,7 +5,7 @@ var updatedMessage = "<p>1. New Update is here!.</p>\n<p>2. Experience. new thin
 
 // Check if the user has dismissed the update or if the message has changed
 if (!localStorage.getItem('dismissed') || localStorage.getItem('message') !== updatedMessage) {
-  // Show the update container if it hasn't been dismissed or if the message has changed
+  // Show the update container if it hasn't been dismissed or if the message has changed 
   var updateContainer = document.getElementById('update-container');
   updateContainer.style.display = 'block';
 
