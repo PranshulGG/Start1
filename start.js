@@ -1,5 +1,5 @@
 // Define the updated message
-var updatedMessage = "<p>1. New Update is here!.</p>\n<p>2. Experience. new things.</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop v5.0.</p>\n<p>5. New Update Notifier!</p>";
+var updatedMessage = "<p>1. New Update is here!.</p>\n<p>2. Experience. new things.</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop 5.0.</p>\n<p>5. New Update Notifier!</p>";
 
 
 
