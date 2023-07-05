@@ -1,5 +1,5 @@
  /* #btn {
-   display: inline-block; 
+   display: inline-block;
    position: absolute;
    left: 110px;
    top: 100px;
@@ -882,7 +882,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ff90', end
 	bottom: 0px;
 	left: 0px;
 	 background-color: rgba(0, 0, 0, 0.692); 
- 
+ touch-action: none;
 	border-radius: 8px;
 	padding: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -928,7 +928,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ff90', end
 	border-radius: 4px;
 	cursor: pointer;
 	position: relative;
-	top: 10px;
+	top: 5px;
   }
   
   #got-it-btn:hover {
@@ -955,10 +955,54 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ff90', end
     position: relative;
     width: 315px;
     height: 45%;
-    bottom: 50px;
+    bottom: 0px;
     left: 0px;
     border-radius: 10px;
     /* margin-top: -20px;
     margin-left: 1px; */
     
+    }
+
+    @media (max-height: 728px){
+      
+      .meow{
+        background: rgb(40, 40, 48);
+        position: relative;
+        width: 315px;
+        height: 45%;
+        bottom: 45px;
+        left: 0px;
+        border-radius: 10px;
+        /* margin-top: -20px;
+        margin-left: 1px; */
+        
+        }
+        #got-it-btn {
+          margin-top: 189px;
+          background-color: #e100ff;
+          color: #ffffff;
+          border: none;
+          font-weight: bolder;
+          padding: 10px 20px;
+          font-size: 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          position: relative;
+          top: -30px;
+          }
+          .cool{
+            position:relative;
+            bottom: 130px;
+            background-color: rgb(0, 153, 255);
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            font-family: 'Ranchers', cursive;
+            word-spacing: 2px;
+            
+            text-decoration-line:underline;
+            text-decoration-color:rgb(247, 0, 255) ;
+            text-decoration-thickness: 2px;
+            text-decoration-style:wavy ;
+            }
+          
     }
