@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pranshul | all in one</title>
     <link rel="stylesheet" href="start.css">
@@ -27,7 +27,7 @@
 
 
 <a href="https://pranshulgg.github.io/loadermusicpart/">
-  <button class="button-85" role="button">🎉 Cool Corner</button>
+  <button class="button-85" role="button" onclick="playSound(event)" >🎉 Cool Corner</button>
 </a>
   <button onclick="openInfoPage()"  class="settings">Settings<i  class="fa fa-gear fa-spin" style="font-size:18px" ></i></button>
   <script>
@@ -68,39 +68,45 @@
       <a href="https://pranshulgg.github.io/Bugreport1/" target="_self" class="rep" >REPORT BUG</a>
      
     
-      <a href="https://pranshulgg.github.io/Maze1/" class="btn btn--gradient" target="_self">
+      <a href="https://pranshulgg.github.io/Maze1/" class="btn btn--gradient" target="_self" onclick="playSound(event)" >
         <img src="maze2.png" class="imgm" alt="Button Image">
         MAZE
       </a>
       
  
- <a href="https://pranshulgg.github.io/blocks/" class="btn2 btn--gradient" target="_self" ><img src="stack.png" class="stackimg" alt="Button Image">TOWER BLOCK</a> 
+      <a href="https://pranshulgg.github.io/blocks/" class="btn2 btn--gradient" target="_self" onclick="playSound(event)"><img src="stack.png" class="stackimg" alt="Button Image">TOWER BLOCK</a>
 
- <a href="https://pranshulgg.github.io/Match/" class="btn3 btn--gradient" target="_self"><img src="memory.png" class="memoryimg" alt="Button Image" >Memory Match</a>
+      <audio id="buttonSound">
+        <source src="kek2.mp3" type="audio/mpeg">
+      </audio>
+      
+    
 
- <a href="https://pranshulgg.github.io/tictak/" class="btn4 btn--gradient" target="_self" ><img src="tictic.png" class="ticimg" alt="Button Image">Tic Tac Toe</a>
+ <a href="https://pranshulgg.github.io/Match/" class="btn3 btn--gradient" target="_self" onclick="playSound(event)"  ><img src="memory.png" class="memoryimg" alt="Button Image" >Memory Match</a>
 
- <a href="https://pranshulgg.github.io/CUTbox/" class="btn5 btn--gradient" target="_self" ><img src="cutbox.png" class="cutbox" alt="Button Image">CUT BOX</a>
+ <a href="https://pranshulgg.github.io/tictak/" class="btn4 btn--gradient" target="_self"onclick="playSound(event)" ><img src="tictic.png" class="ticimg" alt="Button Image">Tic Tac Toe</a>
+
+ <a href="https://pranshulgg.github.io/CUTbox/" class="btn5 btn--gradient" target="_self"onclick="playSound(event)" ><img src="cutbox.png" class="cutbox" alt="Button Image">CUT BOX</a>
 
  
 
- <a href="https://pranshulgg.github.io/testcube/" class="btn7 btn--gradient" target="_self" ><img src="cube1.png" class="cube1" alt="Button Image">CUBE</a> 
+ <a href="https://pranshulgg.github.io/testcube/" class="btn7 btn--gradient" target="_self" onclick="playSound(event)"><img src="cube1.png" class="cube1" alt="Button Image">CUBE</a> 
 
- <a href="https://pranshulgg.github.io/snakeandl/" class="btn8 btn--gradient" target="_self" ><img src="snakel.png" class="snakel" alt="Button Image">Snake and Ladder</a> 
+ <a href="https://pranshulgg.github.io/snakeandl/" class="btn8 btn--gradient" target="_self" onclick="playSound(event)"><img src="snakel.png" class="snakel" alt="Button Image">Snake and Ladder</a> 
 
- <a href="https://pranshulgg.github.io/hang/" class="btn9 btn--gradient" target="_self" ><img src="hang.png" class="hang" alt="Button Image">Guess The Word</a> 
+ <a href="https://pranshulgg.github.io/hang/" class="btn9 btn--gradient" target="_self"onclick="playSound(event)" ><img src="hang.png" class="hang" alt="Button Image">Guess The Word</a> 
 
- <a href="https://pranshulgg.github.io/board/" class="btn10 btn--gradient" target="_self" ><img src="simon.png" class="simon" alt="Button Image">Stay With The Tune</a> 
+ <a href="https://pranshulgg.github.io/board/" class="btn10 btn--gradient" target="_self"onclick="playSound(event)" ><img src="simon.png" class="simon" alt="Button Image">Stay With The Tune</a> 
 
- <a href="https://pranshulgg.github.io/zombieg/" class="btn11 btn--gradient" target="_self" ><img src="zombie.png" class="zom" alt="Button Image">Zombie</a> 
+ <a href="https://pranshulgg.github.io/zombieg/" class="btn11 btn--gradient" target="_self"onclick="playSound(event)" ><img src="zombie.png" class="zom" alt="Button Image">Zombie</a> 
 
- <a href="https://pranshulgg.github.io/Dotandbot/" class="btn6 btn--gradient" target="_self" ><img src="pak.png" class="pak" alt="Button Image">DOT AND BOT</a> 
+ <a href="https://pranshulgg.github.io/Dotandbot/" class="btn6 btn--gradient" target="_self" onclick="playSound(event)"><img src="pak.png" class="pak" alt="Button Image">DOT AND BOT</a> 
 
- <a href="https://pranshulgg.github.io/crosstheroad/" class="btn12 btn--gradient" target="_self" ><img src="road.png" class="road" alt="Button Image">Cross Road</a> 
+ <a href="https://pranshulgg.github.io/crosstheroad/" class="btn12 btn--gradient" target="_self"onclick="playSound(event)" ><img src="road.png" class="road" alt="Button Image">Cross Road</a> 
 
- <a href="https://pranshulgg.github.io/chess/" class="btn13 btn--gradient" target="_self" ><img src="chess.png" class="chess" alt="">AI Chess</a> 
+ <a href="https://pranshulgg.github.io/chess/" class="btn13 btn--gradient" target="_self"onclick="playSound(event)" ><img src="chess.png" class="chess" alt="">AI Chess</a> 
 
- <a href="https://pranshulgg.github.io/reactiongame/" class="btn14 btn--gradient" target="_self" ><img src="react.png" class="react" alt="">Reaction Time</a> 
+ <a href="https://pranshulgg.github.io/reactiongame/" class="btn14 btn--gradient" target="_self" onclick="playSound(event)"><img src="react.png" class="react" alt="">Reaction Time</a> 
  
  
  <div id="update-container">
@@ -108,10 +114,10 @@
   
   <div class="container">
     <h3 style="color: rgb(255, 255, 255); padding: 10px; background: rgb(111, 0, 255); border-radius: 10px; position: relative;">App Updated <i style="color: rgb(82, 255, 47);" class="fa fa-circle-check"></i></h3>
-  <p>1. New Update is here!.</p>
+  <p>1. Sound added to buttons!.</p>
   <p>2. Experience new things.</p>
   <p>3. Startup screen changed.</p>
-  <p>4. Now Supports lollipop 5.0.
+  <p>4. Now Supports lollipop v5.0.
     </p>
   <p>5. New Update Notifier!</p>
   
