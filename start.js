@@ -1,6 +1,6 @@
 // Define the updated message
-var updatedMessage = "<p>1. Sound added to buttons!.</p>\n<p>2. Experience. new things.</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop v5.0.</p>\n<p>5. New Update Notifier!</p>";
- 
+var updatedMessage = "<p>1. New game added Riddles.</p>\n<p>2. Sound added to buttons!</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop v5.0.</p>\n<p>5. New Update Notifier!</p>";
+
 
 
 // Check if the user has dismissed the update or if the message has changed
