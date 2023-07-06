@@ -32,7 +32,7 @@ function playSound(event) {
   audio.play();
   setTimeout(function() {
     window.location.href = event.target.href;
-  }, 50); // Adjust the delay (in milliseconds) before navigating to the new page
+  }, 100); // Adjust the delay (in milliseconds) before navigating to the new page
   event.preventDefault();
 }
 
