@@ -12,7 +12,7 @@
    font-family: Rubik Puddles;
    color: rgb(30, 255, 0);
    background-image: linear-gradient(to top, #002fff, #ff009d);
-   font-weight: bold; 
+   font-weight: bold;
 
 
  } */
@@ -24,7 +24,7 @@
 
  html,body{
   width: 400px;
-  height: 1220px;
+  height: 1280px;
   margin: 0px;
   padding: 0px;
   overflow: auto;
@@ -122,6 +122,13 @@
 
 }
 .react{
+  width: 39px;
+  position: absolute;
+  right: 155px;
+  top: 10px;
+
+}
+.riddle{
   width: 39px;
   position: absolute;
   right: 155px;
@@ -490,6 +497,25 @@ padding: 10px;
    position: absolute;
    left: 80px;
    top: 1140px;
+   font-family: Days One;
+}
+.btn15{
+  background-color: #23D5AB;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  text-align: center;
+  
+  text-decoration: none;
+
+  width: 200px;
+   position: absolute;
+   left: 80px;
+   top: 1210px;
    font-family: Days One;
 }
 .rate{
