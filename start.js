@@ -1,5 +1,5 @@
 // Define the updated message
-var updatedMessage = "<p>1. Sound added to buttons.</p>\n<p>2. Experience. new things.</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop v5.0.</p>\n<p>5. New Update Notifier!</p>"; 
+var updatedMessage = "<p>1. Sound added to buttons!.</p>\n<p>2. Experience. new things.</p>\n<p>3. Startup screen changed.</p>\n<p>4. Now Supports lollipop v5.0.</p>\n<p>5. New Update Notifier!</p>";
 
 
 
@@ -32,6 +32,7 @@ function playSound(event) {
   audio.play();
   setTimeout(function() {
     window.location.href = event.target.href;
-  }, 200); // Adjust the delay (in milliseconds) before navigating to the new page
+  }, 50); // Adjust the delay (in milliseconds) before navigating to the new page
   event.preventDefault();
 }
+
