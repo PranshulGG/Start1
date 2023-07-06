@@ -25,10 +25,33 @@
 </head>
 <body>
 
+  <a href="https://pranshulgg.github.io/loadermusicpart/" onclick="playSound()">
+    <button class="button-85" role="button">🎉 Cool Corner</button>
+  </a>
+  
+  <audio id="clickSound">
+    <!-- Add the MP3 audio source -->
+    <source src="kek2.mp3" type="audio/mpeg">
+    
+  </audio>
+  
+   <script>
+   function playSound(event) {
+    event.preventDefault();
+    var audio = document.getElementById('clickSound');
+    audio.pause(); // Pause the audio if it's already playing
+    audio.currentTime = 0; // Reset the audio to the beginning
+    audio.play();
+  }
 
-<a href="https://pranshulgg.github.io/loadermusicpart/">
-  <button class="button-85" role="button" onclick="playSound(event)" >🎉 Cool Corner</button>
-</a>
+  var audio = document.getElementById('clickSound');
+  audio.addEventListener('ended', function() {
+    audio.currentTime = 0; // Reset the audio to the beginning when it ends
+  });
+  </script>
+   
+
+
   <button onclick="openInfoPage()"  class="settings">Settings<i  class="fa fa-gear fa-spin" style="font-size:18px" ></i></button>
   <script>
     function openInfoPage() {
@@ -79,7 +102,7 @@
       <audio id="buttonSound">
         <source src="kek2.mp3" type="audio/mpeg">
       </audio>
-      
+        
     
 
  <a href="https://pranshulgg.github.io/Match/" class="btn3 btn--gradient" target="_self" onclick="playSound(event)"  ><img src="memory.png" class="memoryimg" alt="Button Image" >Memory Match</a>
@@ -114,7 +137,7 @@
   
   <div class="container">
     <h3 style="color: rgb(255, 255, 255); padding: 10px; background: rgb(111, 0, 255); border-radius: 10px; position: relative;">App Updated <i style="color: rgb(82, 255, 47);" class="fa fa-circle-check"></i></h3>
-  <p>1. Sound added to buttons.</p>
+  <p>1. Sound added to buttons!.</p>
   <p>2. Experience new things.</p>
   <p>3. Startup screen changed.</p>
   <p>4. Now Supports lollipop v5.0.
