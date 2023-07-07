@@ -1,5 +1,5 @@
 // Define the updated message
-var updatedMessage = "<p>1. Game Removed: Riddles.</p>\n<p>2. Game Added: Guess Word!</p>";
+var updatedMessage = "<p>1. Game Removed: Riddles.</p>\n<p>2. Game Added: Guess Word!</p>\n<p>3. Game Added: Dot Boxes!</p>";
 
 
 
