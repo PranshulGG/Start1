@@ -1,5 +1,5 @@
 // Define the updated message
-var updatedMessage = "<p>1. Tic Tac Toe New version with sound and new look!.</p>\n<p>2. Game Added: Guess Word!</p>\n<p>3. Game Added: Dot Boxes!</p>";
+var updatedMessage = "<p>1. Now Change background!</p>\n<p>2. Game Added: Guess Word!</p>\n<p>3. Game Added: Dot Boxes!</p>";
 
 
 
@@ -36,3 +36,26 @@ function playSound(event) {
   event.preventDefault();
 }
 
+const button = document.getElementById('changeBackgroundBtn');
+const body = document.body;
+const backgrounds = [
+  'bg.jpg',
+  'bg2.png',
+  'bg3.jpg',
+  'b4.jpg',
+  'bg5.jpg',
+  'b6.jpg'
+  // Add more background image URLs here
+];
+let currentBackgroundIndex = 0;
+
+const clickSound = document.getElementById('clickSound2');
+
+button.addEventListener('click', function() {
+  currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
+  const newBackground = backgrounds[currentBackgroundIndex];
+  body.style.backgroundImage = `url(${newBackground})`;
+  
+  // Play the click sound
+  clickSound.play();
+});
