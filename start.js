@@ -1,5 +1,5 @@
 // Define the updated message
-var updatedMessage = "<p>1. Now Change background!</p>\n<p>2. Game Added: Guess Word!</p>\n<p>3. Game Added: Dot Boxes!</p>";
+var updatedMessage = "    <p>🔴 Tic Tac Toe Update New Look!</p>\n<p>1. Now Change background!</p>\n<p>2. Game Added: Guess Word!</p>\n<p>3. Game Added: Dot Boxes!</p>";
 
 
 
