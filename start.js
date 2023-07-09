@@ -44,12 +44,22 @@ const backgrounds = [
   'bg3.jpg',
   'b4.jpg',
   'bg5.jpg',
-  'b6.jpg'
+  'b6.jpg',
   // Add more background image URLs here
 ];
 let currentBackgroundIndex = 0;
 
-const clickSound = document.getElementById('clickSound2');
+const clickSound = document.getElementById('clickSound');
+
+// Check if a background image is stored in localStorage
+const storedBackground = localStorage.getItem('background');
+if (storedBackground) {
+  const storedBackgroundIndex = backgrounds.indexOf(storedBackground);
+  if (storedBackgroundIndex !== -1) {
+    currentBackgroundIndex = storedBackgroundIndex;
+    body.style.backgroundImage = `url(${storedBackground})`;
+  }
+}
 
 button.addEventListener('click', function() {
   currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
@@ -58,4 +68,7 @@ button.addEventListener('click', function() {
   
   // Play the click sound
   clickSound.play();
+  
+  // Store the selected background image in localStorage
+  localStorage.setItem('background', newBackground);
 });
