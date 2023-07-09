@@ -43,8 +43,8 @@ const backgrounds = [
   'bg2.png',
   'bg3.jpg',
   'b4.jpg',
-  'bg5.jpg',
-  'b6.jpg',
+  'bg5.jpg'
+
   // Add more background image URLs here
 ];
 let currentBackgroundIndex = 0;
